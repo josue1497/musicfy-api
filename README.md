@@ -41,19 +41,19 @@ $ yarn install
 
 # development
 
-$ npm run start
+$ yarn start
 
   
 
 # watch mode
 
-$ npm run start:dev
+$ yarn start:dev
 
   
 
 # production mode
 
-$ npm run start:prod
+$ yarn start:prod
 
 ```
 
@@ -67,11 +67,11 @@ $ npm run start:prod
 
 # unit tests
 
-$ npm run test
+$ yarn test
 
 # test coverage
 
-$ npm run test:cov
+$ yarn test:cov
 
 ```
 
