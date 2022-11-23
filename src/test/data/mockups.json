@@ -1,0 +1,77 @@
+{
+  "getAllAlbumsResponse": {
+    "data": [
+      {
+        "_id": "637c4c2a2b7c454fc5ba79e6",
+        "artistName": "Josue",
+        "artistLastame": "martinez",
+        "albumName": "2k22",
+        "albumYear": "2022",
+        "albumCover": "url x"
+      },
+      {
+        "_id": "637c4e69b522774a90fbc8d5",
+        "artistName": "Jose",
+        "artistLastname": "Marquez",
+        "albumName": "Ilusion",
+        "albumYear": "2022",
+        "albumCover": "url"
+      }
+    ]
+  },
+  "getAlbum": {
+    "data": {
+      "_id": "637c4c2a2b7c454fc5ba79e6",
+      "artistName": "Josue",
+      "artistLastame": "martinez",
+      "albumName": "2k22",
+      "albumYear": "2022",
+      "albumCover": "url x"
+    }
+  },
+  "createAlbumRequest": {
+    "artistName": "Maria",
+    "artistLastname": "Vazquez",
+    "albumName": "ExTasis",
+    "albumYear": "2021",
+    "albumCover": "urlcover"
+  },
+  "albumCreatedResponse": {
+    "data": {
+      "artistName": "Maria",
+      "artistLastname": "Vazquez",
+      "albumName": "ExTasis",
+      "albumYear": "2021",
+      "albumCover": "urlcover",
+      "_id": "637d1533fc59a6cfac758eea"
+    }
+  },
+  "updateAlbumRequest": {
+    "param": "637d1533fc59a6cfac758eea",
+    "body": {
+      "artistName": "Maria",
+      "artistLastname": "Vazquez",
+      "albumName": "ExTasis II",
+      "albumYear": "2022",
+      "albumCover": "urlcover"
+    }
+  },
+  "albumUpdatedResponse": {
+    "data": {
+      "acknowledged": true,
+      "modifiedCount": 1,
+      "upsertedId": null,
+      "upsertedCount": 0,
+      "matchedCount": 1
+    }
+  },
+  "deleteAlbumRequest": {
+    "param": "637d1533fc59a6cfac758eea"
+  },
+  "albumDeletedResponse": {
+    "data": {
+      "acknowledged": true,
+      "deletedCount": 1
+    }
+  }
+}
